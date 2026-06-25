@@ -1,4 +1,4 @@
-const exe4: number = Number(prompt("digite seu exe4"));
+const exe4: number = Number(prompt("digite um numero"));
 
 const dobro: number = exe4 * 2;
 const triplo: number = exe4 * 3;
