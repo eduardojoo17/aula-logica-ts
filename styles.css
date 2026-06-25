@@ -3,19 +3,27 @@
 }
 
 body {
-  font-family: system-ui, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
   margin: 0;
-  background: #f4f4f4;
+  background: #1e1e1e;
   color: #222;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 700px;
   margin: 40px auto;
   padding: 24px;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
+  box-shadow:
+    5px 5px #1e1e1e,
+    10px 10px #3178c6,
+    15px 15px #3a3838;
 }
 
 h1 {
@@ -30,6 +38,7 @@ h1 {
 /* Botões / cards de navegação */
 .botoes {
   display: flex;
+  font-family: "Times New Roman", Times, serif;
   flex-direction: column;
   gap: 12px;
   margin: 20px 0;
@@ -64,4 +73,11 @@ code {
   background: #eee;
   padding: 2px 5px;
   border-radius: 4px;
+}
+
+.logo {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
